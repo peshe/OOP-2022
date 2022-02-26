@@ -70,14 +70,14 @@ Student student_two = student_two;
 ```c++
 
 еnum Color {
-    Red,
-    Green,
-    Blue
+    RED
+    GREEN,
+    BLUE
 }
 
 struct Book {
 
-    int pages;
+    size_t pages;
     Color coverColor;
 }
 

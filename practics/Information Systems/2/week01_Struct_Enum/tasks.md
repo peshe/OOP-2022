@@ -39,6 +39,6 @@
 * Моделирайте структура Classroom, съдържаща до 20 студента. Инициализирайте една такава структура със някакви студенти, след което напишете функция, която намира най-трудния предмет за студентите. (имаме оценките на студентите)
 
 ```c++
-  Subject& getHardestSubject(const Classroom& classroom);
+  Subject getHardestSubject(const Classroom& classroom);
   void printSubject(Subject)
   ```
