@@ -100,7 +100,7 @@ int main()
 
     showMostExpensiveLaptop(laptops, AMOUNT_OF_LAPTOPS);
 
-    std::cout << averagePrice(laptops, AMOUNT_OF_LAPTOPS);
+    std::cout << averagePrice(laptops, AMOUNT_OF_LAPTOPS) << std::endl;
 
     printLaptopsWindows(laptops, AMOUNT_OF_LAPTOPS);
 
