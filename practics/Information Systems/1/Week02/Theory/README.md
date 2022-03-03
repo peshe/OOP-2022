@@ -27,8 +27,8 @@ fileOut.open(“NameOfFile”);
 ```
 open (filename, mode);
 
-**filename** - името на файла
-**mode** - режим на отваряне на файла (не е задължителен)
+filename - името на файла
+mode - режим на отваряне на файла (не е задължителен)
 ```
 
 ```
@@ -73,21 +73,21 @@ myFile.close();
 Състояния на файла(флагове): 
 =
 
-  **in**          Opens the file to read(default for ifstream)
+  **in** -         Opens the file to read(default for ifstream)
 
-  **out**         Opens the file to write(default for ofstream)
+  **out** -        Opens the file to write(default for ofstream)
 
-  **binary**      Opens the file in binary mode
+  **binary** -     Opens the file in binary mode
 
-  **app**         Opens the file and appends all the outputs at the end
+  **app** -        Opens the file and appends all the outputs at the end
 
-  **ate**         Opens the file and moves the control to the end of the file
+  **ate** -         Opens the file and moves the control to the end of the file
 
-  **trunc**       Removes the data in the existing file
+  **trunc** -      Removes the data in the existing file
 
-  **nocreate**    Opens the file only if it already exists
+  **nocreate** -   Opens the file only if it already exists
 
-  **noreplace**   Opens the file only if it does not already exist
+  **noreplace** -  Opens the file only if it does not already exist
 
 Режимите могат да бъдат въведени като втори параметър на конструктура на file stream обекта или да бъдат записани в метода open().
 
