@@ -9,24 +9,36 @@
 - за преименуване на файл по подадено старо и ново име
 - за изтриване на файл по подадено име
 
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week02/Tasks/zad1.cpp)
+
 Задача 2:
 =
 Напишете програма която прочита числа от текстов файл и записва четните и нечетните числа в отделни файлове.
 
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week02/Tasks/zad2.cpp)
+
 Задача 3:
 =
 Напишете програма която прочита два текстови файла и създава трети със съдържанието на първия и втория.
+
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week02/Tasks/zad3.cpp)
 
 Задача 4:
 =
 Напишете програма която премахва всички празни редове от текстов файл.
 (след изпълнението на програма да имаме един файл с оригиналното име)
 
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week02/Tasks/zad4.cpp)
+
 Задача 5:
 =
 Напишете програма, която променя текстов файл като - преобразува всички главни букви в малки и обратното.
 
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week02/Tasks/zad5.cpp)
+
 Задача 6:
 =
 Напишете програма, която приема прости изрази, изчислява стойностите им и записва резултатите в отделен файл (при следващо стартиране на програмата да добавя резултатите в същия файл като всеки резултата се записва на нов ред).
+
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week02/Tasks/zad6.cpp)
 
