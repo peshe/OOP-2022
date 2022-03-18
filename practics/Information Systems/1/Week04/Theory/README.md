@@ -50,10 +50,12 @@ class Rectangle
 
 **По подразбиране всички членове на клас, деклариран с ключовата дума class, имат private достъп за всички негови членове.**
 
+```
 class class_name
 {
     data_type name_of_variable; // по подразбиране - private
 };
+```
 
 Обекти:
 =
