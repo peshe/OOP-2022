@@ -88,9 +88,9 @@ void Stack::print()const {
 
 void Stack::setItems(const char* newItems) {
 
-	int len = strlen(newItems);
+	size_t len = strlen(newItems);
 
-	for (int i = 0; i < len && len < MaxSize; ++i) {
+	for (size_t i = 0; i < len && len < MaxSize; ++i) {
 		items[i] = newItems[i];
 	}
 
