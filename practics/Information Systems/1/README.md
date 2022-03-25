@@ -7,3 +7,5 @@
 [Седмица 3 - Двоични файлове. Работа при пряк достъп.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week03)
 
 [Седмица 4 - Класове - идея, видимост. Членове. Декларация и дефиниция.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week04)
+
+[Седмица 5 - Класове и обекти - жизнен цикъл. Конструктори и деструктори. Инициализация. Изключения.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week05)
