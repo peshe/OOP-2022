@@ -11,3 +11,5 @@
 [Седмица 5 - Класове и обекти - жизнен цикъл. Конструктори и деструктори. Инициализация. Изключения.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week05)
 
 [Седмица 6 - Статични и константни членове на клас. Приятели. Разделна компилация](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week06)
+
+[Седмица 7 - Предефиниране на оператори](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week07)
