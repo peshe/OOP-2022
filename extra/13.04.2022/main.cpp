@@ -12,7 +12,7 @@ class ISBN {
 	char number[ISBN_SIZE];
 public:
 	// алтернативен вариант - махате конструктора по подразбиране
-	// и оставяте само конструктор с параметри, катo така задължавате потребителя
+	// и оставяте само конструктор с параметри, каот така задължавате потребителя
 	// винаги да въвежда номер
 	ISBN() {
 		strcpy_s(number, ISBN_SIZE, "978-0-00-000000-0");
@@ -41,7 +41,7 @@ public:
 				throw std::exception("Not a digit!");
 			}
 		}
-		strcpy(this->number, number);
+		strcpy_s(this->number, ISBN_SIZE, number);
 	}
 
 	bool operator==(const ISBN& other) const {
