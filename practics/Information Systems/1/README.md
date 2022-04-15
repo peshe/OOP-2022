@@ -13,3 +13,5 @@
 [Седмица 6 - Статични и константни членове на клас. Приятели. Разделна компилация](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week06)
 
 [Седмица 7 - Предефиниране на оператори](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week07)
+
+[Седмица 8 - Предефиниране на оператори. Допълнение](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week08)
