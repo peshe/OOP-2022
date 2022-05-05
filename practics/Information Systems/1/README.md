@@ -17,3 +17,5 @@
 [Седмица 8 - Предефиниране на оператори. Допълнение](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week08)
 
 [Седмица 9 - Наследяване. Идея. Основни концепции.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week09)
+
+[Седмица 10 - Множествено наследяване. Виртуални базови класове](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week10)
