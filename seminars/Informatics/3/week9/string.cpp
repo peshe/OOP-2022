@@ -54,6 +54,14 @@ public:
 	int length() const {
 		return size;
 	}
+
+    char& operator[](int index) {
+        return data[index];
+    }
+
+    const char operator[](int index) const {
+        return data[index];
+    }
 };
 
 std::ostream& operator<<(std::ostream& out, const String& str) {
@@ -79,6 +87,12 @@ std::ostream& operator<<(std::ostream& out, const Entity& ent) {
 }
 
 int main() {
+    String s1("str1");
+    s1[2] = 'f';
+    const String s("str");
+    //s[0] = 'd';
+    std::cout<< s1<< " "<< s<< std::endl;
+
     Entity e("nasko");
 	std::cout<< e;
 }
