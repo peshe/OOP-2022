@@ -6,39 +6,33 @@
 #include "Manager.h"
 
 
-bool comparator(const Employee* fstEmp,const Employee* sndEmp) {
-    return strcmp(fstEmp->getName(), sndEmp->getName()) > 0;
+bool moreExperience(const Employee* fstEmp,const Employee* sndEmp) {
+    
+    return fstEmp->getMonths() > sndEmp->getMonths();
 }
 
 int main()
 {
-    Company cmp(4);
+    Company cmp(5);
 
-    Employee* emp = new Developer("Mark", 6, true, false);
-    Employee* emp1 = new Developer("John", 4, false, true);
-    Employee* emp2 = new Developer("Mitko", 2, true, true);
-    Employee* mng = new Manager("Peter", 5, 3);
+    Developer emp("Mark", 6, true, false);
+    Developer emp1("John", 4, false, true);
+    Developer emp2("Mitko", 2, true, true);
+    Manager mng("Peter", 5, 3);
 
     cmp.addEmployee(emp);
     cmp.addEmployee(emp1);
     cmp.addEmployee(emp2);
     cmp.addEmployee(mng);
 
-    cmp.removeEmployee(emp);
+    cmp.removeEmployee(emp1);
 
-    cmp.sort(&comparator);
+    cmp.sort(&moreExperience);
 
     for (int i = 0; i < cmp.getCount(); i++) {
        std::cout << cmp.getEmployes()[i]->getName() << " " << cmp.getEmployes()[i]->getMonths() << std::endl;
     }
 
-    cmp.getEmployes()[0];
-
-
-    delete emp;
-    delete emp1;
-    delete emp2;
-    delete mng;
 
     return 0;
 }

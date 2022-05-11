@@ -1,6 +1,10 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+#include <typeinfo>
+#include <iostream>
+#include <cstring>
+
 class Employee {
 
 public:
@@ -8,13 +12,21 @@ public:
 	Employee(const char* name, const unsigned int month);
 	Employee(const Employee& other);
 	Employee& operator=(const Employee& other);
-	~Employee();
+	Employee& operator=(Employee&& obj);
+	
+	virtual ~Employee();
+
+	virtual bool operator==(const Employee& rhs) const;
+
+    bool operator!=(const Employee &rhs) const;
 
 	void setName(const char* name);
 	void setMonths(const unsigned int months);
 
-	char* getName() const;
+	const char* getName() const;
 	unsigned int getMonths() const;
+
+	virtual Employee* clone() const = 0;
 
 protected:
 	char* name;

@@ -7,10 +7,10 @@ class Company {
 
 public:
 	Company(const int capacity);
-	//~Company();
+	~Company();
 
-	void addEmployee(Employee* emp);
-	void removeEmployee(Employee* emp);
+	void addEmployee(const Employee& emp);
+	void removeEmployee(const Employee& emp);
 	void print() const;
 
 	int getCount() const ;
