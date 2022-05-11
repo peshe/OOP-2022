@@ -7,14 +7,14 @@ class Company {
 
 public:
 	Company(const int capacity);
-	~Company();
+	//~Company();
 
 	void addEmployee(Employee* emp);
 	void removeEmployee(Employee* emp);
 	void print() const;
 
 	int getCount() const ;
-	Employee** getEmployes() const;
+	const Employee* const * getEmployes() const;
 
 	void sort(bool(*comparator)(const Employee*, const Employee*));
 

@@ -37,7 +37,7 @@ void Company::removeEmployee(Employee* emp) {
 int Company::getCount() const {
 	return count;
 }
-Employee** Company::getEmployes() const {
+const Employee* const * Company::getEmployes() const {
 	return employes;
 }
 
@@ -73,6 +73,6 @@ void Company::resize() {
 	employes = newEmployes;
 }
 
-void Company::clear() {
+/* void Company::clear() {
 	delete[] employes;
-}
+} */
