@@ -21,3 +21,5 @@
 [Седмица 10 - Множествено наследяване. Виртуални базови класове](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week10)
 
 [Седмица 11 - Виртуални методи и полиморфизъм. Абстрактни класове.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week11)
+
+[Седмица 12 - Шаблони (templates). Идея, особености, използване. Шаблони на функции.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week12)
