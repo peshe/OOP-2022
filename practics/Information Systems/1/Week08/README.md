@@ -21,3 +21,5 @@
 - operator[] (тук подайте индекса на елемента, който искате да върнете)
 - operator<<
 - operator>>
+
+[Решение...](https://github.com/peshe/OOP-2022/blob/main/practics/Information%20Systems/1/Week08/Week08.cpp)
