@@ -25,3 +25,5 @@
 [Седмица 12 - Шаблони (templates). Идея, особености, използване. Шаблони на функции.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week12)
 
 [Седмица 13 - Шаблони на класове. Особености. Шаблони при влагане и наследяване. Нетипови параметри.](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week13)
+
+[Седмица 14 - Обработка на изключения](https://github.com/peshe/OOP-2022/tree/main/practics/Information%20Systems/1/Week14)
