@@ -1,0 +1,37 @@
+1. There are students
+	Relations:
+		Who are into courses
+		And belong to specializations and groups
+	Properties:
+		Has credits
+		Passed courses
+		Current courses
+		Can graduate (mandatory courses + all credits)
+2. There are lecturers
+	Relations:
+		Who own a course
+		Who own teaching assistants
+	Properties:
+		Has title
+3. There are teaching assistants
+	Relations:
+		Who teach some groups (may be more than one)
+		Who may be students
+	Properties:
+		Has title
+4. There are courses
+	Relations:
+	Properties:
+		Mandatory and Elective
+		Has credits
+5. There are specializations
+	Relations:
+		Have groups
+		Mandatory courses
+	Properties:
+		Nessecary credits
+6. There are groups
+	Relations:
+		Have studens
+	Properties:
+		Number

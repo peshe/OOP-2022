@@ -1,0 +1,19 @@
+class Person {}
+class Student {}
+Student --> Group
+Student --> Course
+Person <|-- Student
+class Lecturer {}
+Person <|-- Lecturer 
+Lecturer --> Course
+Lecturer -> TeachingAssistant
+class TeachingAssistant {}
+Person <|-- TeachingAssistant
+TeachingAssistant --> Group
+class Course {}
+class Specialization {
+    Array<Group> groups
+}
+Course <- Specialization
+class Group {}
+Group -> Specialization

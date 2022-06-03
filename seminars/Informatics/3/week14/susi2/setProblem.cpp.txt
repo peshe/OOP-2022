@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+class Set {
+    bool member(int x);
+    int operator[](int index);
+    int lenght();
+    bool operator<(Set& other);
+    
+    
+};
+
+int main()
+{
+    cout<<"Hello World";
+    vector<Set*> sets;
+    
+    f(sets);
+    
+    for(set in sets) { delete set }
+
+    return 0;
+}
